@@ -1,0 +1,704 @@
+2022-05-08 04:25:25 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-08 04:25:26 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.8 (default, Apr 13 2021, 19:58:26) - [GCC 7.3.0], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Linux-4.4.0-17763-Microsoft-x86_64-with-glibc2.10
+2022-05-08 04:26:48 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-08 04:26:48 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.8 (default, Apr 13 2021, 19:58:26) - [GCC 7.3.0], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Linux-4.4.0-17763-Microsoft-x86_64-with-glibc2.10
+2022-05-08 04:40:01 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-08 04:40:01 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.8 (default, Apr 13 2021, 19:58:26) - [GCC 7.3.0], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Linux-4.4.0-17763-Microsoft-x86_64-with-glibc2.10
+2022-05-08 04:51:13 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-08 04:51:13 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.8 (default, Apr 13 2021, 19:58:26) - [GCC 7.3.0], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Linux-4.4.0-17763-Microsoft-x86_64-with-glibc2.10
+2022-05-08 04:51:13 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'G_market2',
+ 'FEED_EXPORT_ENCODING': 'utf-8-sig',
+ 'FEED_EXPORT_FIELDS': ['Name', 'Price', 'URL'],
+ 'LOG_FILE': 'G_market2.log',
+ 'NEWSPIDER_MODULE': 'G_market2.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['G_market2.spiders']}
+2022-05-08 04:51:13 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-05-08 04:51:13 [scrapy.extensions.telnet] INFO: Telnet Password: 5ded553735aab142
+2022-05-08 04:51:13 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-08 04:51:13 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-08 04:51:13 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-08 04:51:13 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-05-08 04:51:13 [scrapy.core.engine] INFO: Spider opened
+2022-05-08 04:51:13 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-08 04:51:13 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-08 04:51:13 [scrapy.core.engine] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/core/engine.py", line 150, in _next_request
+    request = next(self.slot.start_requests)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/spiders/__init__.py", line 64, in start_requests
+    yield Request(url, dont_filter=True)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 60, in __init__
+    self._set_url(url)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 98, in _set_url
+    raise TypeError(f"Request url must be str, got {type(url).__name__}")
+TypeError: Request url must be str, got list
+2022-05-08 04:51:13 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-08 04:51:13 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.012524,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 7, 19, 51, 13, 971721),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'memusage/max': 53415936,
+ 'memusage/startup': 53411840,
+ 'start_time': datetime.datetime(2022, 5, 7, 19, 51, 13, 959197)}
+2022-05-08 04:51:13 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-08 04:53:22 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-08 04:53:23 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.8 (default, Apr 13 2021, 19:58:26) - [GCC 7.3.0], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Linux-4.4.0-17763-Microsoft-x86_64-with-glibc2.10
+2022-05-08 04:53:23 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'G_market2',
+ 'FEED_EXPORT_ENCODING': 'utf-8-sig',
+ 'FEED_EXPORT_FIELDS': ['Name', 'Price', 'URL'],
+ 'LOG_ENABLED': False,
+ 'LOG_FILE': 'G_market2.log',
+ 'NEWSPIDER_MODULE': 'G_market2.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['G_market2.spiders']}
+2022-05-08 04:53:23 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-05-08 04:53:23 [scrapy.extensions.telnet] INFO: Telnet Password: e2654dd418833c33
+2022-05-08 04:53:23 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-08 04:53:23 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-08 04:53:23 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-08 04:53:23 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-05-08 04:53:23 [scrapy.core.engine] INFO: Spider opened
+2022-05-08 04:53:23 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-08 04:53:23 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-08 04:53:23 [scrapy.core.engine] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/core/engine.py", line 150, in _next_request
+    request = next(self.slot.start_requests)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/spiders/__init__.py", line 64, in start_requests
+    yield Request(url, dont_filter=True)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 60, in __init__
+    self._set_url(url)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 98, in _set_url
+    raise TypeError(f"Request url must be str, got {type(url).__name__}")
+TypeError: Request url must be str, got list
+2022-05-08 04:53:23 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-08 04:53:23 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.008029,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 7, 19, 53, 23, 680743),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'memusage/max': 53424128,
+ 'memusage/startup': 53420032,
+ 'start_time': datetime.datetime(2022, 5, 7, 19, 53, 23, 672714)}
+2022-05-08 04:53:23 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-08 04:55:07 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-08 04:55:07 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.8 (default, Apr 13 2021, 19:58:26) - [GCC 7.3.0], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Linux-4.4.0-17763-Microsoft-x86_64-with-glibc2.10
+2022-05-08 04:55:07 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'G_market2',
+ 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter',
+ 'FEED_EXPORT_ENCODING': 'utf-8-sig',
+ 'FEED_EXPORT_FIELDS': ['Name', 'Price', 'URL'],
+ 'LOGSTATS_INTERVAL': 0,
+ 'LOG_FILE': 'G_market2.log',
+ 'NEWSPIDER_MODULE': 'G_market2.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['G_market2.spiders']}
+2022-05-08 04:55:07 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-05-08 04:55:07 [scrapy.extensions.telnet] INFO: Telnet Password: dfea1b7f126cdbbe
+2022-05-08 04:55:07 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2022-05-08 04:55:07 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-08 04:55:07 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-08 04:55:07 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-05-08 04:55:07 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-08 04:55:07 [scrapy.core.engine] INFO: Spider opened
+2022-05-08 04:55:08 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://open/robots.txt> (failed 1 times): DNS lookup failed: no results for hostname lookup: open.
+2022-05-08 04:55:08 [py.warnings] WARNING: /home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/core/engine.py:276: ScrapyDeprecationWarning: Passing a 'spider' argument to ExecutionEngine.download is deprecated
+  return self.download(result, spider) if isinstance(result, Request) else result
+
+2022-05-08 04:55:08 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://open/robots.txt> (failed 2 times): DNS lookup failed: no results for hostname lookup: open.
+2022-05-08 04:55:08 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET http://open/robots.txt> (failed 3 times): DNS lookup failed: no results for hostname lookup: open.
+2022-05-08 04:55:08 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET http://open/robots.txt>: DNS lookup failed: no results for hostname lookup: open.
+Traceback (most recent call last):
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 1656, in _inlineCallbacks
+    result = current_context.run(
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/twisted/python/failure.py", line 514, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/core/downloader/middleware.py", line 49, in process_request
+    return (yield download_func(request=request, spider=spider))
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/twisted/internet/endpoints.py", line 1020, in startConnectionAttempts
+    raise error.DNSLookupError(
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: open.
+2022-05-08 04:55:08 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://open> (failed 1 times): DNS lookup failed: no results for hostname lookup: open.
+2022-05-08 04:55:08 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://open> (failed 2 times): DNS lookup failed: no results for hostname lookup: open.
+2022-05-08 04:55:08 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET http://open> (failed 3 times): DNS lookup failed: no results for hostname lookup: open.
+2022-05-08 04:57:27 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-08 04:57:27 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.8 (default, Apr 13 2021, 19:58:26) - [GCC 7.3.0], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Linux-4.4.0-17763-Microsoft-x86_64-with-glibc2.10
+2022-05-08 04:57:27 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'G_market2',
+ 'FEED_EXPORT_ENCODING': 'utf-8-sig',
+ 'FEED_EXPORT_FIELDS': ['Name', 'Price', 'URL'],
+ 'LOG_ENABLED': False,
+ 'LOG_FILE': 'G_market2.log',
+ 'NEWSPIDER_MODULE': 'G_market2.spiders',
+ 'SPIDER_MODULES': ['G_market2.spiders']}
+2022-05-08 04:57:27 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-05-08 04:57:27 [scrapy.extensions.telnet] INFO: Telnet Password: 686a695457454f06
+2022-05-08 04:57:27 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-08 04:57:27 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-08 04:57:27 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-08 04:57:27 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-05-08 04:57:27 [scrapy.core.engine] INFO: Spider opened
+2022-05-08 04:57:28 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-08 04:57:28 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-08 04:57:28 [scrapy.core.engine] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/core/engine.py", line 150, in _next_request
+    request = next(self.slot.start_requests)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/spiders/__init__.py", line 64, in start_requests
+    yield Request(url, dont_filter=True)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 60, in __init__
+    self._set_url(url)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 98, in _set_url
+    raise TypeError(f"Request url must be str, got {type(url).__name__}")
+TypeError: Request url must be str, got list
+2022-05-08 04:57:28 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-08 04:57:28 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.008959,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 7, 19, 57, 28, 41214),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'memusage/max': 53350400,
+ 'memusage/startup': 53346304,
+ 'start_time': datetime.datetime(2022, 5, 7, 19, 57, 28, 32255)}
+2022-05-08 04:57:28 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-08 12:06:52 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-08 12:06:52 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.8 (default, Apr 13 2021, 19:58:26) - [GCC 7.3.0], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Linux-4.4.0-17763-Microsoft-x86_64-with-glibc2.10
+2022-05-08 12:06:52 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'G_market2',
+ 'FEED_EXPORT_ENCODING': 'utf-8-sig',
+ 'FEED_EXPORT_FIELDS': ['Name', 'Price', 'URL'],
+ 'LOG_ENABLED': False,
+ 'LOG_FILE': 'G_market2.log',
+ 'NEWSPIDER_MODULE': 'G_market2.spiders',
+ 'SPIDER_MODULES': ['G_market2.spiders']}
+2022-05-08 12:06:52 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-05-08 12:06:52 [scrapy.extensions.telnet] INFO: Telnet Password: 85adb479ae3a9cc9
+2022-05-08 12:06:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-08 12:06:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-08 12:06:52 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-08 12:06:52 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-05-08 12:06:52 [scrapy.core.engine] INFO: Spider opened
+2022-05-08 12:06:53 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-08 12:06:53 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-08 12:06:53 [scrapy.core.engine] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/core/engine.py", line 150, in _next_request
+    request = next(self.slot.start_requests)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/spiders/__init__.py", line 64, in start_requests
+    yield Request(url, dont_filter=True)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 60, in __init__
+    self._set_url(url)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 98, in _set_url
+    raise TypeError(f"Request url must be str, got {type(url).__name__}")
+TypeError: Request url must be str, got list
+2022-05-08 12:06:53 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-08 12:06:53 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.006115,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 8, 3, 6, 53, 297238),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'memusage/max': 53346304,
+ 'memusage/startup': 53342208,
+ 'start_time': datetime.datetime(2022, 5, 8, 3, 6, 53, 291123)}
+2022-05-08 12:06:53 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-08 12:14:57 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-08 12:14:57 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.8 (default, Apr 13 2021, 19:58:26) - [GCC 7.3.0], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Linux-4.4.0-17763-Microsoft-x86_64-with-glibc2.10
+2022-05-08 12:14:57 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'G_market2',
+ 'FEED_EXPORT_ENCODING': 'utf-8-sig',
+ 'FEED_EXPORT_FIELDS': ['Name', 'Price', 'URL'],
+ 'LOG_FILE': 'G_market2.log',
+ 'NEWSPIDER_MODULE': 'G_market2.spiders',
+ 'SPIDER_MODULES': ['G_market2.spiders']}
+2022-05-08 12:14:58 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-05-08 12:14:58 [scrapy.extensions.telnet] INFO: Telnet Password: 3c928fa06f855da7
+2022-05-08 12:14:58 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-08 12:14:58 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-08 12:14:58 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-08 12:14:58 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-05-08 12:14:58 [scrapy.core.engine] INFO: Spider opened
+2022-05-08 12:14:58 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-08 12:14:58 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-08 12:14:58 [scrapy.core.engine] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/core/engine.py", line 150, in _next_request
+    request = next(self.slot.start_requests)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/spiders/__init__.py", line 64, in start_requests
+    yield Request(url, dont_filter=True)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 60, in __init__
+    self._set_url(url)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 98, in _set_url
+    raise TypeError(f"Request url must be str, got {type(url).__name__}")
+TypeError: Request url must be str, got list
+2022-05-08 12:14:58 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-08 12:14:58 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.009209,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 8, 3, 14, 58, 667204),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'memusage/max': 53338112,
+ 'memusage/startup': 53338112,
+ 'start_time': datetime.datetime(2022, 5, 8, 3, 14, 58, 657995)}
+2022-05-08 12:14:58 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-08 12:20:35 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-08 12:20:36 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.8 (default, Apr 13 2021, 19:58:26) - [GCC 7.3.0], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Linux-4.4.0-17763-Microsoft-x86_64-with-glibc2.10
+2022-05-08 12:20:36 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'G_market2',
+ 'FEED_EXPORT_ENCODING': 'utf-8-sig',
+ 'FEED_EXPORT_FIELDS': ['Name', 'Price', 'URL'],
+ 'LOG_FILE': 'G_market2.log',
+ 'NEWSPIDER_MODULE': 'G_market2.spiders',
+ 'SPIDER_MODULES': ['G_market2.spiders']}
+2022-05-08 12:20:36 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-05-08 12:20:36 [scrapy.extensions.telnet] INFO: Telnet Password: a4d6559d88135bce
+2022-05-08 12:20:36 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-08 12:20:36 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-08 12:20:36 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-08 12:20:36 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-05-08 12:20:36 [scrapy.core.engine] INFO: Spider opened
+2022-05-08 12:20:36 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-08 12:20:36 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-08 12:20:36 [scrapy.core.engine] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/core/engine.py", line 150, in _next_request
+    request = next(self.slot.start_requests)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/spiders/__init__.py", line 64, in start_requests
+    yield Request(url, dont_filter=True)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 60, in __init__
+    self._set_url(url)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 98, in _set_url
+    raise TypeError(f"Request url must be str, got {type(url).__name__}")
+TypeError: Request url must be str, got list
+2022-05-08 12:20:36 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-08 12:20:36 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.012018,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 8, 3, 20, 36, 717867),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'memusage/max': 53338112,
+ 'memusage/startup': 53338112,
+ 'start_time': datetime.datetime(2022, 5, 8, 3, 20, 36, 705849)}
+2022-05-08 12:20:36 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-08 12:27:30 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-08 12:27:30 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.8 (default, Apr 13 2021, 19:58:26) - [GCC 7.3.0], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Linux-4.4.0-17763-Microsoft-x86_64-with-glibc2.10
+2022-05-08 12:27:30 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'G_market2',
+ 'FEED_EXPORT_FIELDS': ['Name', 'Price', 'URL'],
+ 'LOG_FILE': 'G_market2.log',
+ 'NEWSPIDER_MODULE': 'G_market2.spiders',
+ 'SPIDER_MODULES': ['G_market2.spiders']}
+2022-05-08 12:27:30 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-05-08 12:27:30 [scrapy.extensions.telnet] INFO: Telnet Password: 06b208c81b3701e6
+2022-05-08 12:27:30 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-08 12:27:30 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-08 12:27:30 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-08 12:27:30 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-05-08 12:27:30 [scrapy.core.engine] INFO: Spider opened
+2022-05-08 12:27:30 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-08 12:27:30 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-08 12:27:30 [scrapy.core.engine] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/core/engine.py", line 150, in _next_request
+    request = next(self.slot.start_requests)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/spiders/__init__.py", line 64, in start_requests
+    yield Request(url, dont_filter=True)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 60, in __init__
+    self._set_url(url)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 98, in _set_url
+    raise TypeError(f"Request url must be str, got {type(url).__name__}")
+TypeError: Request url must be str, got list
+2022-05-08 12:27:30 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-08 12:27:30 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.006712,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 8, 3, 27, 30, 900366),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'memusage/max': 53325824,
+ 'memusage/startup': 53325824,
+ 'start_time': datetime.datetime(2022, 5, 8, 3, 27, 30, 893654)}
+2022-05-08 12:27:30 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-08 12:28:20 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-08 12:28:20 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.8 (default, Apr 13 2021, 19:58:26) - [GCC 7.3.0], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Linux-4.4.0-17763-Microsoft-x86_64-with-glibc2.10
+2022-05-08 12:28:20 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'G_market2',
+ 'FEED_EXPORT_FIELDS': ['Name', 'Price', 'URL'],
+ 'LOG_FILE': 'G_market2.log',
+ 'NEWSPIDER_MODULE': 'G_market2.spiders',
+ 'SPIDER_MODULES': ['G_market2.spiders']}
+2022-05-08 12:28:20 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-05-08 12:28:20 [scrapy.extensions.telnet] INFO: Telnet Password: 0cc043af0157d030
+2022-05-08 12:28:20 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-08 12:28:20 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-08 12:28:20 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-08 12:28:20 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-05-08 12:28:20 [scrapy.core.engine] INFO: Spider opened
+2022-05-08 12:28:21 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-08 12:28:21 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-08 12:28:21 [scrapy.core.engine] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/core/engine.py", line 150, in _next_request
+    request = next(self.slot.start_requests)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/spiders/__init__.py", line 64, in start_requests
+    yield Request(url, dont_filter=True)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 60, in __init__
+    self._set_url(url)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 98, in _set_url
+    raise TypeError(f"Request url must be str, got {type(url).__name__}")
+TypeError: Request url must be str, got list
+2022-05-08 12:28:21 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-08 12:28:21 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.007922,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 8, 3, 28, 21, 191396),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'memusage/max': 53301248,
+ 'memusage/startup': 53301248,
+ 'start_time': datetime.datetime(2022, 5, 8, 3, 28, 21, 183474)}
+2022-05-08 12:28:21 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-08 12:37:38 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-08 12:37:38 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.8 (default, Apr 13 2021, 19:58:26) - [GCC 7.3.0], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Linux-4.4.0-17763-Microsoft-x86_64-with-glibc2.10
+2022-05-08 12:37:38 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'G_market2',
+ 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter',
+ 'FEED_EXPORT_FIELDS': ['Name', 'Price', 'URL'],
+ 'LOG_FILE': 'G_market2.log',
+ 'NEWSPIDER_MODULE': 'G_market2.spiders',
+ 'SPIDER_MODULES': ['G_market2.spiders']}
+2022-05-08 12:37:38 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-05-08 12:37:38 [scrapy.extensions.telnet] INFO: Telnet Password: 562fc2d6f37bc93b
+2022-05-08 12:37:38 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-08 12:37:38 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-08 12:37:38 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-08 12:37:38 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-05-08 12:37:38 [scrapy.core.engine] INFO: Spider opened
+2022-05-08 12:37:38 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-08 12:37:38 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-08 12:37:38 [scrapy.core.engine] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/core/engine.py", line 150, in _next_request
+    request = next(self.slot.start_requests)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/spiders/__init__.py", line 64, in start_requests
+    yield Request(url, dont_filter=True)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 60, in __init__
+    self._set_url(url)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 98, in _set_url
+    raise TypeError(f"Request url must be str, got {type(url).__name__}")
+TypeError: Request url must be str, got list
+2022-05-08 12:37:38 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-08 12:37:38 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.006722,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 8, 3, 37, 38, 991919),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'memusage/max': 53329920,
+ 'memusage/startup': 53329920,
+ 'start_time': datetime.datetime(2022, 5, 8, 3, 37, 38, 985197)}
+2022-05-08 12:37:38 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-08 12:40:59 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-08 12:40:59 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.8 (default, Apr 13 2021, 19:58:26) - [GCC 7.3.0], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Linux-4.4.0-17763-Microsoft-x86_64-with-glibc2.10
+2022-05-08 12:40:59 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'G_market2',
+ 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter',
+ 'FEED_EXPORT_FIELDS': ['Name', 'Price', 'URL'],
+ 'LOG_FILE': 'G_market2.log',
+ 'NEWSPIDER_MODULE': 'G_market2.spiders',
+ 'SPIDER_MODULES': ['G_market2.spiders']}
+2022-05-08 12:40:59 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-05-08 12:40:59 [scrapy.extensions.telnet] INFO: Telnet Password: be116edfe2a0b807
+2022-05-08 12:40:59 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-08 12:40:59 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-08 12:40:59 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-08 12:40:59 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-05-08 12:40:59 [scrapy.core.engine] INFO: Spider opened
+2022-05-08 12:40:59 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-08 12:40:59 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-08 12:40:59 [scrapy.core.engine] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/core/engine.py", line 150, in _next_request
+    request = next(self.slot.start_requests)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/spiders/__init__.py", line 64, in start_requests
+    yield Request(url, dont_filter=True)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 60, in __init__
+    self._set_url(url)
+  File "/home/soyoung/anaconda3/lib/python3.8/site-packages/scrapy/http/request/__init__.py", line 98, in _set_url
+    raise TypeError(f"Request url must be str, got {type(url).__name__}")
+TypeError: Request url must be str, got list
+2022-05-08 12:40:59 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-08 12:40:59 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.007184,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 8, 3, 40, 59, 754100),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'memusage/max': 53305344,
+ 'memusage/startup': 53305344,
+ 'start_time': datetime.datetime(2022, 5, 8, 3, 40, 59, 746916)}
+2022-05-08 12:40:59 [scrapy.core.engine] INFO: Spider closed (finished)
